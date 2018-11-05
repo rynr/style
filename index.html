@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Simple Standard Style</title>
+  </head>
+  <body>
+    <article>
+      <h2>Fonts</h2>
+      <dl>
+        <dt>Standard font</dt>
+        <dd>The quick brown fox jumps over the lazy dog</dd>
+        <dt>&lt;b/&gt;</dt>
+        <dd><b>The quick brown fox jumps over the lazy dog</b></dd>
+        <dt>&lt;strong/&gt;</dt>
+        <dd><strong>The quick brown fox jumps over the lazy dog</strong></dd>
+        <dt>&lt;i/&gt;</dt>
+        <dd><i>The quick brown fox jumps over the lazy dog</i></dd>
+        <dt>&lt;cite/&gt;</dt>
+        <dd><cite>The quick brown fox jumps over the lazy dog</cite></dd>
+        <dt>&lt;em/&gt;</dt>
+        <dd><em>The quick brown fox jumps over the lazy dog</em></dd>
+        <dt>&lt;var/&gt;</dt>
+        <dd><var>The quick brown fox jumps over the lazy dog</var></dd>
+        <dt>&lt;address/&gt;</dt>
+        <dd><address>The quick brown fox jumps over the lazy dog</address></dd>
+        <dt>&lt;dfn/&gt;</dt>
+        <dd><dfn>The quick brown fox jumps over the lazy dog</dfn></dd>
+        <dt>&lt;u/&gt;</dt>
+        <dd><u>The quick brown fox jumps over the lazy dog</u></dd>
+        <dt>&lt;ins/&gt;</dt>
+        <dd><ins>The quick brown fox jumps over the lazy dog</ins></dd>
+        <dt>&lt;s/&gt;</dt>
+        <dd><s>The quick brown fox jumps over the lazy dog</s></dd>
+        <dt>&lt;del/&gt;</dt>
+        <dd><del>The quick brown fox jumps over the lazy dog</del></dd>
+        <dt>&lt;mark/&gt;</dt>
+        <dd><mark>The quick brown fox jumps over the lazy dog</mark></dd>
+        <dt>&lt;tt/&gt;</dt>
+        <dd><tt>The quick brown fox jumps over the lazy dog</tt></dd>
+        <dt>&lt;samp/&gt;</dt>
+        <dd><samp>The quick brown fox jumps over the lazy dog</samp></dd>
+        <dt>&lt;code/&gt;</dt>
+        <dd><code>The quick brown fox jumps over the lazy dog</code></dd>
+        <dt>&lt;kbd/&gt;</dt>
+        <dd><kbd>The quick brown fox jumps over the lazy dog</kbd></dd>
+        <dt>&lt;small/&gt;</dt>
+        <dd><small>The quick brown fox jumps over the lazy dog</small></dd>
+        <dt>&lt;sup/&gt;</dt>
+        <dd><sup>The quick brown fox jumps over the lazy dog</sup> (standard)</dd>
+        <dt>&lt;sub/&gt;</dt>
+        <dd><sub>The quick brown fox jumps over the lazy dog</sub> (standard)</dd>
+      </dl>
+    </article>
+    <article>
+      <h2>Colors</h2>
+      <p><code style="background-color: var(--color-text); color: #ffffff;">#000000</code> Text Color</p>
+      <p><code style="background-color: var(--color-link);">#428bca</code> Link Color</p>
+      <p><code style="background-color: var(--color-primary);">#428bca</code> Primany Color</p>
+      <p><code style="background-color: var(--color-success);">#dff0d8</code> Success Color</p>
+      <p><code style="background-color: var(--color-info);">#d9edf7</code> Info Color</p>
+      <p><code style="background-color: var(--color-warning);">#fcf8e3</code> Warning Color</p>
+      <p><code style="background-color: var(--color-danger);">#f2dede</code> Danger Color</p>
+      <p><code style="background-color: var(--color-article-background);">#cccccc</code> Article Background Color</p>
+    </article>
+    <article>
+      <h2>Breadcrumb</h2>
+      <nav>
+        <ol class="breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">1st Level</a></li>
+          <li><a href="#">2nd Level</a></li>
+          <li>Now</li>
+        </ol>
+      </nav>
+    </article>
+    <article>
+      <h2>Info Boxes</h2>
+      <div class="success">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        This is an alert box.
+      </div>
+      <div class="info">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        This is an info box.
+      </div>
+      <div class="warning">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        This is an warning box.
+      </div>
+      <div class="danger">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        This is an danger box.
+      </div>
+    </article>
+    <article>
+      <h2>More information</h2>
+      <div>For more information check the sources at <a href="https://github.com/rynr/style/">github</a></div>
+    </article>
+  </body>
+</html>
